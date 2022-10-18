@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1AA3A5A28FE5D0F0075E573 /* FTPNetworkAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A5928FE5D0F0075E573 /* FTPNetworkAppApp.swift */; };
+		D1AA3A5C28FE5D0F0075E573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A5B28FE5D0F0075E573 /* ContentView.swift */; };
+		D1AA3A5E28FE5D150075E573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AA3A5D28FE5D150075E573 /* Assets.xcassets */; };
+		D1AA3A6128FE5D150075E573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AA3A6028FE5D150075E573 /* Preview Assets.xcassets */; };
+		D1AA3A6328FE5D150075E573 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A6228FE5D150075E573 /* Persistence.swift */; };
+		D1AA3A6628FE5D150075E573 /* FTPNetworkApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A6428FE5D150075E573 /* FTPNetworkApp.xcdatamodeld */; };
+		D1AA3A7028FE5D150075E573 /* FTPNetworkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A6F28FE5D150075E573 /* FTPNetworkAppTests.swift */; };
+		D1AA3A7A28FE5D150075E573 /* FTPNetworkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A7928FE5D150075E573 /* FTPNetworkAppUITests.swift */; };
+		D1AA3A7C28FE5D150075E573 /* FTPNetworkAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A7B28FE5D150075E573 /* FTPNetworkAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1AA3A6C28FE5D150075E573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1AA3A4E28FE5D0F0075E573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1AA3A5528FE5D0F0075E573;
+			remoteInfo = FTPNetworkApp;
+		};
+		D1AA3A7628FE5D150075E573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1AA3A4E28FE5D0F0075E573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1AA3A5528FE5D0F0075E573;
+			remoteInfo = FTPNetworkApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1AA3A5628FE5D0F0075E573 /* FTPNetworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPNetworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AA3A5928FE5D0F0075E573 /* FTPNetworkAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPNetworkAppApp.swift; sourceTree = "<group>"; };
+		D1AA3A5B28FE5D0F0075E573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1AA3A5D28FE5D150075E573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1AA3A6028FE5D150075E573 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1AA3A6228FE5D150075E573 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D1AA3A6528FE5D150075E573 /* FTPNetworkApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FTPNetworkApp.xcdatamodel; sourceTree = "<group>"; };
+		D1AA3A6B28FE5D150075E573 /* FTPNetworkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTPNetworkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AA3A6F28FE5D150075E573 /* FTPNetworkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPNetworkAppTests.swift; sourceTree = "<group>"; };
+		D1AA3A7528FE5D150075E573 /* FTPNetworkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTPNetworkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AA3A7928FE5D150075E573 /* FTPNetworkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPNetworkAppUITests.swift; sourceTree = "<group>"; };
+		D1AA3A7B28FE5D150075E573 /* FTPNetworkAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPNetworkAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1AA3A5328FE5D0F0075E573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AA3A6828FE5D150075E573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AA3A7228FE5D150075E573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1AA3A4D28FE5D0F0075E573 = {
+			isa = PBXGroup;
+			children = (
+				D1AA3A5828FE5D0F0075E573 /* FTPNetworkApp */,
+				D1AA3A6E28FE5D150075E573 /* FTPNetworkAppTests */,
+				D1AA3A7828FE5D150075E573 /* FTPNetworkAppUITests */,
+				D1AA3A5728FE5D0F0075E573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1AA3A5728FE5D0F0075E573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA3A5628FE5D0F0075E573 /* FTPNetworkApp.app */,
+				D1AA3A6B28FE5D150075E573 /* FTPNetworkAppTests.xctest */,
+				D1AA3A7528FE5D150075E573 /* FTPNetworkAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1AA3A5828FE5D0F0075E573 /* FTPNetworkApp */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA3A5928FE5D0F0075E573 /* FTPNetworkAppApp.swift */,
+				D1AA3A5B28FE5D0F0075E573 /* ContentView.swift */,
+				D1AA3A5D28FE5D150075E573 /* Assets.xcassets */,
+				D1AA3A6228FE5D150075E573 /* Persistence.swift */,
+				D1AA3A6428FE5D150075E573 /* FTPNetworkApp.xcdatamodeld */,
+				D1AA3A5F28FE5D150075E573 /* Preview Content */,
+			);
+			path = FTPNetworkApp;
+			sourceTree = "<group>";
+		};
+		D1AA3A5F28FE5D150075E573 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA3A6028FE5D150075E573 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1AA3A6E28FE5D150075E573 /* FTPNetworkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA3A6F28FE5D150075E573 /* FTPNetworkAppTests.swift */,
+			);
+			path = FTPNetworkAppTests;
+			sourceTree = "<group>";
+		};
+		D1AA3A7828FE5D150075E573 /* FTPNetworkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA3A7928FE5D150075E573 /* FTPNetworkAppUITests.swift */,
+				D1AA3A7B28FE5D150075E573 /* FTPNetworkAppUITestsLaunchTests.swift */,
+			);
+			path = FTPNetworkAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1AA3A5528FE5D0F0075E573 /* FTPNetworkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AA3A7F28FE5D150075E573 /* Build configuration list for PBXNativeTarget "FTPNetworkApp" */;
+			buildPhases = (
+				D1AA3A5228FE5D0F0075E573 /* Sources */,
+				D1AA3A5328FE5D0F0075E573 /* Frameworks */,
+				D1AA3A5428FE5D0F0075E573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTPNetworkApp;
+			productName = FTPNetworkApp;
+			productReference = D1AA3A5628FE5D0F0075E573 /* FTPNetworkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1AA3A6A28FE5D150075E573 /* FTPNetworkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AA3A8228FE5D150075E573 /* Build configuration list for PBXNativeTarget "FTPNetworkAppTests" */;
+			buildPhases = (
+				D1AA3A6728FE5D150075E573 /* Sources */,
+				D1AA3A6828FE5D150075E573 /* Frameworks */,
+				D1AA3A6928FE5D150075E573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1AA3A6D28FE5D150075E573 /* PBXTargetDependency */,
+			);
+			name = FTPNetworkAppTests;
+			productName = FTPNetworkAppTests;
+			productReference = D1AA3A6B28FE5D150075E573 /* FTPNetworkAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1AA3A7428FE5D150075E573 /* FTPNetworkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AA3A8528FE5D150075E573 /* Build configuration list for PBXNativeTarget "FTPNetworkAppUITests" */;
+			buildPhases = (
+				D1AA3A7128FE5D150075E573 /* Sources */,
+				D1AA3A7228FE5D150075E573 /* Frameworks */,
+				D1AA3A7328FE5D150075E573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1AA3A7728FE5D150075E573 /* PBXTargetDependency */,
+			);
+			name = FTPNetworkAppUITests;
+			productName = FTPNetworkAppUITests;
+			productReference = D1AA3A7528FE5D150075E573 /* FTPNetworkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1AA3A4E28FE5D0F0075E573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D1AA3A5528FE5D0F0075E573 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D1AA3A6A28FE5D150075E573 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D1AA3A5528FE5D0F0075E573;
+					};
+					D1AA3A7428FE5D150075E573 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D1AA3A5528FE5D0F0075E573;
+					};
+				};
+			};
+			buildConfigurationList = D1AA3A5128FE5D0F0075E573 /* Build configuration list for PBXProject "FTPNetworkApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1AA3A4D28FE5D0F0075E573;
+			productRefGroup = D1AA3A5728FE5D0F0075E573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1AA3A5528FE5D0F0075E573 /* FTPNetworkApp */,
+				D1AA3A6A28FE5D150075E573 /* FTPNetworkAppTests */,
+				D1AA3A7428FE5D150075E573 /* FTPNetworkAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1AA3A5428FE5D0F0075E573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AA3A6128FE5D150075E573 /* Preview Assets.xcassets in Resources */,
+				D1AA3A5E28FE5D150075E573 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AA3A6928FE5D150075E573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AA3A7328FE5D150075E573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1AA3A5228FE5D0F0075E573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AA3A6328FE5D150075E573 /* Persistence.swift in Sources */,
+				D1AA3A5C28FE5D0F0075E573 /* ContentView.swift in Sources */,
+				D1AA3A5A28FE5D0F0075E573 /* FTPNetworkAppApp.swift in Sources */,
+				D1AA3A6628FE5D150075E573 /* FTPNetworkApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AA3A6728FE5D150075E573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AA3A7028FE5D150075E573 /* FTPNetworkAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AA3A7128FE5D150075E573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AA3A7C28FE5D150075E573 /* FTPNetworkAppUITestsLaunchTests.swift in Sources */,
+				D1AA3A7A28FE5D150075E573 /* FTPNetworkAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1AA3A6D28FE5D150075E573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1AA3A5528FE5D0F0075E573 /* FTPNetworkApp */;
+			targetProxy = D1AA3A6C28FE5D150075E573 /* PBXContainerItemProxy */;
+		};
+		D1AA3A7728FE5D150075E573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1AA3A5528FE5D0F0075E573 /* FTPNetworkApp */;
+			targetProxy = D1AA3A7628FE5D150075E573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1AA3A7D28FE5D150075E573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1AA3A7E28FE5D150075E573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1AA3A8028FE5D150075E573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FTPNetworkApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = messagesonhold.com.au.FTPNetworkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1AA3A8128FE5D150075E573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FTPNetworkApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = messagesonhold.com.au.FTPNetworkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1AA3A8328FE5D150075E573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = messagesonhold.com.au.FTPNetworkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTPNetworkApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FTPNetworkApp";
+			};
+			name = Debug;
+		};
+		D1AA3A8428FE5D150075E573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = messagesonhold.com.au.FTPNetworkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTPNetworkApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FTPNetworkApp";
+			};
+			name = Release;
+		};
+		D1AA3A8628FE5D150075E573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = messagesonhold.com.au.FTPNetworkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FTPNetworkApp;
+			};
+			name = Debug;
+		};
+		D1AA3A8728FE5D150075E573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = messagesonhold.com.au.FTPNetworkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FTPNetworkApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1AA3A5128FE5D0F0075E573 /* Build configuration list for PBXProject "FTPNetworkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AA3A7D28FE5D150075E573 /* Debug */,
+				D1AA3A7E28FE5D150075E573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1AA3A7F28FE5D150075E573 /* Build configuration list for PBXNativeTarget "FTPNetworkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AA3A8028FE5D150075E573 /* Debug */,
+				D1AA3A8128FE5D150075E573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1AA3A8228FE5D150075E573 /* Build configuration list for PBXNativeTarget "FTPNetworkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AA3A8328FE5D150075E573 /* Debug */,
+				D1AA3A8428FE5D150075E573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1AA3A8528FE5D150075E573 /* Build configuration list for PBXNativeTarget "FTPNetworkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AA3A8628FE5D150075E573 /* Debug */,
+				D1AA3A8728FE5D150075E573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1AA3A6428FE5D150075E573 /* FTPNetworkApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1AA3A6528FE5D150075E573 /* FTPNetworkApp.xcdatamodel */,
+			);
+			currentVersion = D1AA3A6528FE5D150075E573 /* FTPNetworkApp.xcdatamodel */;
+			path = FTPNetworkApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D1AA3A4E28FE5D0F0075E573 /* Project object */;
+}
