@@ -1,5 +1,5 @@
 //
-//  FTPNetworkAppApp.swift
+//  FTPNetworkApp.swift
 //  FTPNetworkApp
 //
 //  Created by MOH on 18/10/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 @main
-struct FTPNetworkAppApp: App {
+struct FTPNetworkApp: App {
     @StateObject var server = Server(port: 21)
     var avplayer = AV(path: "/Users/moh/Documents/Scripts/test.mp3")
     let persistenceController = PersistenceController.shared

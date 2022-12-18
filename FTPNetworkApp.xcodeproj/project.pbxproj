@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D16C967A294E9A8800B183C5 /* DataConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16C9679294E9A8800B183C5 /* DataConnection.swift */; };
-		D1AA3A5A28FE5D0F0075E573 /* FTPNetworkAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A5928FE5D0F0075E573 /* FTPNetworkAppApp.swift */; };
+		D1AA3A5A28FE5D0F0075E573 /* FTPNetworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A5928FE5D0F0075E573 /* FTPNetworkApp.swift */; };
 		D1AA3A5C28FE5D0F0075E573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A5B28FE5D0F0075E573 /* ContentView.swift */; };
 		D1AA3A5E28FE5D150075E573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AA3A5D28FE5D150075E573 /* Assets.xcassets */; };
 		D1AA3A6128FE5D150075E573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AA3A6028FE5D150075E573 /* Preview Assets.xcassets */; };
@@ -19,7 +19,6 @@
 		D1AA3A7C28FE5D150075E573 /* FTPNetworkAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A7B28FE5D150075E573 /* FTPNetworkAppUITestsLaunchTests.swift */; };
 		D1AA3A8928FE5D2F0075E573 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A8828FE5D2F0075E573 /* Server.swift */; };
 		D1AA3A8B28FE5FF20075E573 /* ServerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A8A28FE5FF20075E573 /* ServerConnection.swift */; };
-		D1AA3A8F28FE6AAC0075E573 /* FTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA3A8E28FE6AAC0075E573 /* FTPManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,7 @@
 		D1199CB1290F8E330030C251 /* FTPNetworkApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FTPNetworkApp.entitlements; sourceTree = "<group>"; };
 		D16C9679294E9A8800B183C5 /* DataConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConnection.swift; sourceTree = "<group>"; };
 		D1AA3A5628FE5D0F0075E573 /* FTPNetworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPNetworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1AA3A5928FE5D0F0075E573 /* FTPNetworkAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPNetworkAppApp.swift; sourceTree = "<group>"; };
+		D1AA3A5928FE5D0F0075E573 /* FTPNetworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPNetworkApp.swift; sourceTree = "<group>"; };
 		D1AA3A5B28FE5D0F0075E573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1AA3A5D28FE5D150075E573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1AA3A6028FE5D150075E573 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,7 +56,6 @@
 		D1AA3A7B28FE5D150075E573 /* FTPNetworkAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPNetworkAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D1AA3A8828FE5D2F0075E573 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		D1AA3A8A28FE5FF20075E573 /* ServerConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConnection.swift; sourceTree = "<group>"; };
-		D1AA3A8E28FE6AAC0075E573 /* FTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +109,7 @@
 			children = (
 				D1199CB1290F8E330030C251 /* FTPNetworkApp.entitlements */,
 				D1199CB0290F8DF60030C251 /* Info.plist */,
-				D1AA3A5928FE5D0F0075E573 /* FTPNetworkAppApp.swift */,
-				D1AA3A8E28FE6AAC0075E573 /* FTPManager.swift */,
+				D1AA3A5928FE5D0F0075E573 /* FTPNetworkApp.swift */,
 				D1AA3A5B28FE5D0F0075E573 /* ContentView.swift */,
 				D1AA3A5D28FE5D150075E573 /* Assets.xcassets */,
 				D1AA3A6228FE5D150075E573 /* Persistence.swift */,
@@ -289,10 +286,9 @@
 			files = (
 				D1AA3A8928FE5D2F0075E573 /* Server.swift in Sources */,
 				D16C967A294E9A8800B183C5 /* DataConnection.swift in Sources */,
-				D1AA3A8F28FE6AAC0075E573 /* FTPManager.swift in Sources */,
 				D1AA3A6328FE5D150075E573 /* Persistence.swift in Sources */,
 				D1AA3A5C28FE5D0F0075E573 /* ContentView.swift in Sources */,
-				D1AA3A5A28FE5D0F0075E573 /* FTPNetworkAppApp.swift in Sources */,
+				D1AA3A5A28FE5D0F0075E573 /* FTPNetworkApp.swift in Sources */,
 				D1AA3A8B28FE5FF20075E573 /* ServerConnection.swift in Sources */,
 				D1AA3A6628FE5D150075E573 /* FTPNetworkApp.xcdatamodeld in Sources */,
 			);
