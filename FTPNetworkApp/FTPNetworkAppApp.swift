@@ -6,15 +6,16 @@
 //
 
 import SwiftUI
-
 @main
 struct FTPNetworkAppApp: App {
+    @StateObject var server = Server(port: 21)
+    var avplayer = AV(path: "/Users/moh/Documents/Scripts/test.mp3")
     let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(server: server)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
